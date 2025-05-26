@@ -423,7 +423,3 @@ pnpm build
 ```bash
 pnpm dev
 ```
-
-## License
-
-ISC
