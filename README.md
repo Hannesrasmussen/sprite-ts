@@ -376,6 +376,26 @@ createSprite({
 
 ## Development
 
+### Workflow
+
+#### Make changes
+
+```bash
+git add . && git commit -m "fix: some bug"
+```
+
+#### Bump version
+
+```bash
+npm version patch # or minor/major
+```
+
+#### Push and relax!
+
+```bash
+git push sprite-ts main
+```
+
 ### Testing
 
 This project uses [Vitest](https://vitest.dev/) for testing.
