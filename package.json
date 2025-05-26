@@ -1,6 +1,6 @@
 {
   "name": "sprite-ts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A TypeScript library for creating animated sprites from spritesheets",
   "type": "module",
   "main": "dist/index.js",
