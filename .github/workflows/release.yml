@@ -81,9 +81,11 @@ jobs:
             if [ -z "$CHANGELOG" ]; then
               echo "notes=Bug fixes and improvements" >> $GITHUB_OUTPUT
             else
-              echo "notes<<EOF" >> $GITHUB_OUTPUT
-              echo "$CHANGELOG" >> $GITHUB_OUTPUT
-              echo "EOF" >> $GITHUB_OUTPUT
+              {
+                echo "notes<<EOF"
+                echo "$CHANGELOG"
+                echo "EOF"
+              } >> $GITHUB_OUTPUT
             fi
           fi
 
