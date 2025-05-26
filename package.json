@@ -52,7 +52,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hannesrasmussen/sprite-ts.git"
+    "url": "git+https://github.com/Hannesrasmussen/sprite-ts.git"
+  },
+  "homepage": "https://github.com/Hannesrasmussen/sprite-ts#readme",
+  "bugs": {
+    "url": "https://github.com/Hannesrasmussen/sprite-ts/issues"
   },
   "publishConfig": {
     "access": "public"
