@@ -349,22 +349,6 @@ const options: SpriteOptions = {
 const sprite: Sprite = createSprite(options);
 ```
 
-## Performance & Bundle Size
-
-**Optimized for different use cases:**
-
-- **Static sprites only** (~2KB): `createSprite` + `setFrame`
-- **Basic animations** (~6KB): Add `addAnimation` + `play`
-- **Full feature set** (~10KB): All functionality including memory tracking
-- **Zero runtime dependencies** - Framework agnostic
-
-**Performance features:**
-
-- Efficient CSS background positioning for sprite frames
-- Automatic cleanup of intervals and callbacks
-- Memory tracking for debugging and analytics
-- Tree-shakeable imports for minimal bundle impact
-
 ## Migration Guide
 
 **From other sprite libraries:**
